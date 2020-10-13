@@ -45,9 +45,9 @@ def main():
 	time.sleep(1.232)
 	driver.find_element_by_xpath('//*[@id="normalLogin"]').click()
 	time.sleep(1.0232)
-	driver.find_element_by_xpath('//*[@id="nameNormal"]').send_keys('15251711240')
+	driver.find_element_by_xpath('//*[@id="nameNormal"]').send_keys('1158654898765')
 	time.sleep(1.8315)
-	driver.find_element_by_xpath('//*[@id="pwdNormal"]').send_keys('pq8330866')
+	driver.find_element_by_xpath('//*[@id="pwdNormal"]').send_keys('987654654')
 
 	# 滑动验证码  存在问题：滑动滑动距离distance需要确定
 	square_button = driver.find_element_by_xpath('//*[@id="nc_1_n1z"]')
