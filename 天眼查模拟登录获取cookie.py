@@ -126,9 +126,9 @@ def main():
 	time.sleep(3)
 	driver.find_element_by_xpath('//*[@id="web-content"]/div/div[2]/div/div/div[3]/div[3]/div[1]/div[2]').click()
 	time.sleep(0.2)
-	driver.find_element_by_xpath('//*[@id="mobile"]').send_keys('15251711240')
+	driver.find_element_by_xpath('//*[@id="mobile"]').send_keys('152512132711240')
 	time.sleep(0.3)
-	driver.find_element_by_xpath('//*[@id="password"]').send_keys('pq8330866')
+	driver.find_element_by_xpath('//*[@id="password"]').send_keys('128330866')
 	time.sleep(3)
 
 	# 点击登录按钮
